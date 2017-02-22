@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF514DF9ECA024676C1D877 /* Pods_SwiftlySalesforce_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2B0F9745755F5A69D654A8 /* Pods_SwiftlySalesforce_Tests.framework */; };
+		534DFA7C78453D8B7E582C26 /* Pods_SwiftlySalesforce_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D41C68BF76D2015A912F59 /* Pods_SwiftlySalesforce_Example.framework */; };
+		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		EA5114F51DFE26280019029F /* DescribeAccountResult.json in Resources */ = {isa = PBXBuildFile; fileRef = EA5114EF1DFDF1AD0019029F /* DescribeAccountResult.json */; };
+		EA5114F61DFE262B0019029F /* DescribeTaskResult.json in Resources */ = {isa = PBXBuildFile; fileRef = EA5114F31DFE0CE30019029F /* DescribeTaskResult.json */; };
+		EABD72401DC0455C00790BCB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD723A1DC0455C00790BCB /* MasterViewController.swift */; };
+		EABD72411DC0455C00790BCB /* TaskForceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD723B1DC0455C00790BCB /* TaskForceError.swift */; };
+		EABD72421DC0455C00790BCB /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD723C1DC0455C00790BCB /* TaskStore.swift */; };
+		EABD72431DC0455C00790BCB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD723D1DC0455C00790BCB /* Task.swift */; };
+		EABD72441DC0455C00790BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD723E1DC0455C00790BCB /* AppDelegate.swift */; };
+		EABD72451DC0455C00790BCB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD723F1DC0455C00790BCB /* DetailViewController.swift */; };
+		EABD72551DC05A8800790BCB /* SalesforceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD724B1DC05A8800790BCB /* SalesforceTests.swift */; };
+		EABD72561DC05A8800790BCB /* MockOAuth2Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD724C1DC05A8800790BCB /* MockOAuth2Data.swift */; };
+		EABD72571DC05A8800790BCB /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD724D1DC05A8800790BCB /* RouterTests.swift */; };
+		EABD72581DC05A8800790BCB /* OAuth2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EABD724E1DC05A8800790BCB /* OAuth2.plist */; };
+		EABD72591DC05A8800790BCB /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD724F1DC05A8800790BCB /* ModelTests.swift */; };
+		EABD725A1DC05A8800790BCB /* MockJSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD72501DC05A8800790BCB /* MockJSONData.swift */; };
+		EABD725B1DC05A8800790BCB /* QueryResult.json in Resources */ = {isa = PBXBuildFile; fileRef = EABD72511DC05A8800790BCB /* QueryResult.json */; };
+		EABD725C1DC05A8800790BCB /* IdentityResult.json in Resources */ = {isa = PBXBuildFile; fileRef = EABD72521DC05A8800790BCB /* IdentityResult.json */; };
+		EABD725D1DC05A8800790BCB /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD72531DC05A8800790BCB /* ExtensionTests.swift */; };
+		EABD725E1DC05A8800790BCB /* AuthManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD72541DC05A8800790BCB /* AuthManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = SwiftlySalesforce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111732379560F313E6BB7A77 /* Pods-SwiftlySalesforce_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftlySalesforce_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftlySalesforce_Example/Pods-SwiftlySalesforce_Example.release.xcconfig"; sourceTree = "<group>"; };
+		21D41C68BF76D2015A912F59 /* Pods_SwiftlySalesforce_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftlySalesforce_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24705FBC892656066700574C /* Pods-SwiftlySalesforce_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftlySalesforce_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftlySalesforce_Example/Pods-SwiftlySalesforce_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* SwiftlySalesforce_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftlySalesforce_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* SwiftlySalesforce_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftlySalesforce_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E884D3C81D57C00681BD33 /* Pods-SwiftlySalesforce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftlySalesforce_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftlySalesforce_Tests/Pods-SwiftlySalesforce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB0C3BD871818BF7C186464 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CE2B0F9745755F5A69D654A8 /* Pods_SwiftlySalesforce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftlySalesforce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34715B1ED2A8E40E849172A /* SwiftlySalesforce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftlySalesforce.podspec; path = ../SwiftlySalesforce.podspec; sourceTree = "<group>"; };
+		EA18C7A91C4404F800DAED6A /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
+		EA5114EF1DFDF1AD0019029F /* DescribeAccountResult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DescribeAccountResult.json; sourceTree = "<group>"; };
+		EA5114F31DFE0CE30019029F /* DescribeTaskResult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DescribeTaskResult.json; sourceTree = "<group>"; };
+		EA91F0051DC060BC006F5BF2 /* SwiftlySalesforce_Example.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SwiftlySalesforce_Example.entitlements; sourceTree = "<group>"; };
+		EABD723A1DC0455C00790BCB /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		EABD723B1DC0455C00790BCB /* TaskForceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskForceError.swift; sourceTree = "<group>"; };
+		EABD723C1DC0455C00790BCB /* TaskStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		EABD723D1DC0455C00790BCB /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EABD723E1DC0455C00790BCB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EABD723F1DC0455C00790BCB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EABD724B1DC05A8800790BCB /* SalesforceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesforceTests.swift; sourceTree = "<group>"; };
+		EABD724C1DC05A8800790BCB /* MockOAuth2Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockOAuth2Data.swift; sourceTree = "<group>"; };
+		EABD724D1DC05A8800790BCB /* RouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
+		EABD724E1DC05A8800790BCB /* OAuth2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OAuth2.plist; sourceTree = "<group>"; };
+		EABD724F1DC05A8800790BCB /* ModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		EABD72501DC05A8800790BCB /* MockJSONData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockJSONData.swift; sourceTree = "<group>"; };
+		EABD72511DC05A8800790BCB /* QueryResult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QueryResult.json; sourceTree = "<group>"; };
+		EABD72521DC05A8800790BCB /* IdentityResult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IdentityResult.json; sourceTree = "<group>"; };
+		EABD72531DC05A8800790BCB /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		EABD72541DC05A8800790BCB /* AuthManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManagerTests.swift; sourceTree = "<group>"; };
+		F7891B295CCEE606466284B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F8FEE5B2427F471C6FAA4ACD /* Pods-SwiftlySalesforce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftlySalesforce_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftlySalesforce_Tests/Pods-SwiftlySalesforce_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534DFA7C78453D8B7E582C26 /* Pods_SwiftlySalesforce_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE21AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF514DF9ECA024676C1D877 /* Pods_SwiftlySalesforce_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				EA91F0051DC060BC006F5BF2 /* SwiftlySalesforce_Example.entitlements */,
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for SwiftlySalesforce */,
+				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD11AFB9204008FA782 /* Products */,
+				ACE722C3A1B9352BCCD7B57B /* Pods */,
+				64FADB0DA5F375CB0BC34407 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* SwiftlySalesforce_Example.app */,
+				607FACE51AFB9204008FA782 /* SwiftlySalesforce_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for SwiftlySalesforce */ = {
+			isa = PBXGroup;
+			children = (
+				EABD723A1DC0455C00790BCB /* MasterViewController.swift */,
+				EABD723B1DC0455C00790BCB /* TaskForceError.swift */,
+				EABD723C1DC0455C00790BCB /* TaskStore.swift */,
+				EABD723D1DC0455C00790BCB /* Task.swift */,
+				EABD723E1DC0455C00790BCB /* AppDelegate.swift */,
+				EABD723F1DC0455C00790BCB /* DetailViewController.swift */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for SwiftlySalesforce";
+			path = SwiftlySalesforce;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACE81AFB9204008FA782 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EABD724B1DC05A8800790BCB /* SalesforceTests.swift */,
+				EABD724C1DC05A8800790BCB /* MockOAuth2Data.swift */,
+				EABD724D1DC05A8800790BCB /* RouterTests.swift */,
+				EABD724F1DC05A8800790BCB /* ModelTests.swift */,
+				EABD72501DC05A8800790BCB /* MockJSONData.swift */,
+				EABD72531DC05A8800790BCB /* ExtensionTests.swift */,
+				EABD72541DC05A8800790BCB /* AuthManagerTests.swift */,
+				607FACE91AFB9204008FA782 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5114EF1DFDF1AD0019029F /* DescribeAccountResult.json */,
+				EA5114F31DFE0CE30019029F /* DescribeTaskResult.json */,
+				EABD72511DC05A8800790BCB /* QueryResult.json */,
+				EABD72521DC05A8800790BCB /* IdentityResult.json */,
+				EABD724E1DC05A8800790BCB /* OAuth2.plist */,
+				607FACEA1AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				EA18C7A91C4404F800DAED6A /* CHANGELOG.md */,
+				D34715B1ED2A8E40E849172A /* SwiftlySalesforce.podspec */,
+				CBB0C3BD871818BF7C186464 /* README.md */,
+				F7891B295CCEE606466284B0 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		64FADB0DA5F375CB0BC34407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D41C68BF76D2015A912F59 /* Pods_SwiftlySalesforce_Example.framework */,
+				CE2B0F9745755F5A69D654A8 /* Pods_SwiftlySalesforce_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACE722C3A1B9352BCCD7B57B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24705FBC892656066700574C /* Pods-SwiftlySalesforce_Example.debug.xcconfig */,
+				111732379560F313E6BB7A77 /* Pods-SwiftlySalesforce_Example.release.xcconfig */,
+				90E884D3C81D57C00681BD33 /* Pods-SwiftlySalesforce_Tests.debug.xcconfig */,
+				F8FEE5B2427F471C6FAA4ACD /* Pods-SwiftlySalesforce_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* SwiftlySalesforce_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftlySalesforce_Example" */;
+			buildPhases = (
+				94C5C296D807F3283F86EA54 /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				94729BEEC5107C5207BB88DB /* [CP] Embed Pods Frameworks */,
+				67930267F652C9ED66935CD2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftlySalesforce_Example;
+			productName = SwiftlySalesforce;
+			productReference = 607FACD01AFB9204008FA782 /* SwiftlySalesforce_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607FACE41AFB9204008FA782 /* SwiftlySalesforce_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftlySalesforce_Tests" */;
+			buildPhases = (
+				9C12BED75CB4FE9418A6BAC8 /* [CP] Check Pods Manifest.lock */,
+				607FACE11AFB9204008FA782 /* Sources */,
+				607FACE21AFB9204008FA782 /* Frameworks */,
+				607FACE31AFB9204008FA782 /* Resources */,
+				85243745D5983CDEE2C67E64 /* [CP] Embed Pods Frameworks */,
+				2A4C0DDAE1A0B07F17928343 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+			);
+			name = SwiftlySalesforce_Tests;
+			productName = Tests;
+			productReference = 607FACE51AFB9204008FA782 /* SwiftlySalesforce_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2R46AVEA2Z;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftlySalesforce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* SwiftlySalesforce_Example */,
+				607FACE41AFB9204008FA782 /* SwiftlySalesforce_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5114F61DFE262B0019029F /* DescribeTaskResult.json in Resources */,
+				EABD72581DC05A8800790BCB /* OAuth2.plist in Resources */,
+				EABD725C1DC05A8800790BCB /* IdentityResult.json in Resources */,
+				EABD725B1DC05A8800790BCB /* QueryResult.json in Resources */,
+				EA5114F51DFE26280019029F /* DescribeAccountResult.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A4C0DDAE1A0B07F17928343 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftlySalesforce_Tests/Pods-SwiftlySalesforce_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67930267F652C9ED66935CD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftlySalesforce_Example/Pods-SwiftlySalesforce_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85243745D5983CDEE2C67E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftlySalesforce_Tests/Pods-SwiftlySalesforce_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94729BEEC5107C5207BB88DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftlySalesforce_Example/Pods-SwiftlySalesforce_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C5C296D807F3283F86EA54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C12BED75CB4FE9418A6BAC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABD72431DC0455C00790BCB /* Task.swift in Sources */,
+				EABD72401DC0455C00790BCB /* MasterViewController.swift in Sources */,
+				EABD72411DC0455C00790BCB /* TaskForceError.swift in Sources */,
+				EABD72451DC0455C00790BCB /* DetailViewController.swift in Sources */,
+				EABD72441DC0455C00790BCB /* AppDelegate.swift in Sources */,
+				EABD72421DC0455C00790BCB /* TaskStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE11AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABD72561DC05A8800790BCB /* MockOAuth2Data.swift in Sources */,
+				EABD725E1DC05A8800790BCB /* AuthManagerTests.swift in Sources */,
+				EABD725A1DC05A8800790BCB /* MockJSONData.swift in Sources */,
+				EABD72571DC05A8800790BCB /* RouterTests.swift in Sources */,
+				EABD725D1DC05A8800790BCB /* ExtensionTests.swift in Sources */,
+				EABD72551DC05A8800790BCB /* SalesforceTests.swift in Sources */,
+				EABD72591DC05A8800790BCB /* ModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* SwiftlySalesforce_Example */;
+			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDA1AFB9204008FA782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24705FBC892656066700574C /* Pods-SwiftlySalesforce_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftlySalesforce_Example.entitlements;
+				DEVELOPMENT_TEAM = 2R46AVEA2Z;
+				INFOPLIST_FILE = SwiftlySalesforce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111732379560F313E6BB7A77 /* Pods-SwiftlySalesforce_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SwiftlySalesforce_Example.entitlements;
+				DEVELOPMENT_TEAM = 2R46AVEA2Z;
+				INFOPLIST_FILE = SwiftlySalesforce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		607FACF31AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E884D3C81D57C00681BD33 /* Pods-SwiftlySalesforce_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftlySalesforce_Example.app/SwiftlySalesforce_Example";
+			};
+			name = Debug;
+		};
+		607FACF41AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FEE5B2427F471C6FAA4ACD /* Pods-SwiftlySalesforce_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftlySalesforce_Example.app/SwiftlySalesforce_Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SwiftlySalesforce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftlySalesforce_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwiftlySalesforce_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF31AFB9204008FA782 /* Debug */,
+				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
